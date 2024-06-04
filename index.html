@@ -6,7 +6,6 @@
     <meta name="description" content="Página sobre o café da Triplepeaks." />
     <meta name="keywords" content="café, biblioteca" />
     <meta name="author" content="Letícia Goliczevski Medeiros" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -140,7 +139,7 @@
                   class="form__input"
                   type="number"
                   id="number-of-guests"
-                  placeholder="1 - 8"
+                  placeholder="1-8"
                   min="1"
                   max="8"
                   step="1"
@@ -192,7 +191,40 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo 'Triple Espresso'."
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Logo do Facebook."
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Logo do Instagram."
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Letícia Goliczevski Medeiros</p>
+      </footer>
     </div>
   </body>
 </html>
